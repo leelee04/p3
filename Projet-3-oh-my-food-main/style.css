@@ -209,7 +209,7 @@ main.background_index {
     margin-left: 10px;
     font-family: roboto;
     list-style-type: none;
-    box-shadow: 1px 2px 2px 1px #e8e7e7;
+    box-shadow: 2px 2px 2px 3px #e8e7e7;
     cursor: pointer;
     font-weight: bold;
     height: 60px;
@@ -225,7 +225,7 @@ main.background_index {
     background-color: #9256dc3e;
     font-family: roboto;
     list-style-type: none;
-    box-shadow: 1px 3px 3px 1px #e8e7e7;
+    box-shadow: 2px 2px 2px 3px #e8e7e7;
     margin-bottom: 30px;
     cursor: pointer;
     background: #F5EDFF;
@@ -378,10 +378,31 @@ a {
         justify-content: flex-end;
     }
 }
- /*Desktop*/
- .container-bloc{
-     flex-direction: column;
- }
- .btn_bouton {
+
+/*Desktop*/
+.container-bloc {
+    flex-direction: column;
+}
+
+.btn_bouton {
     margin-bottom: 38px;
-     }
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.select_resto, .select_menu{
+    display: flex;
+    justify-content: space-around;
+}
+.select_taste{
+    display: flex;
+    justify-content: space-around;
+}
+.bloc_card-resto{
+    display: flex;
+    width: 96%;
+}
+.container-bloc1{
+    display: flex;
+    width: 99%;
+}
