@@ -364,6 +364,13 @@ a {
         margin-left: 66px;
         justify-content: flex-end;
     }
+    .btn-explorer{
+        width: 82%;
+        padding-top: 8px;
+    }
+    .btn_bouton{
+        
+    }
 }
 
 /*Desktop*/
@@ -380,6 +387,7 @@ a {
 .select_resto, .select_menu{
     display: flex;
     justify-content: space-around;
+    padding-left: 1px;
 }
 .select_taste{
     display: flex;

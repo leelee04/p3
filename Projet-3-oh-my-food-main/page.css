@@ -61,6 +61,8 @@ button {
 }
 
 /*menu entry, plat,desserts*/
+.card1{
+}
 .menu__title {
     font-size: 15px;
     margin-top: 20px;
@@ -124,6 +126,6 @@ a {
         width: 100%;
     }
     .border_white{
-        width: 49%;
+        width: 100%;
     }
 }
