@@ -1,0 +1,403 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+ul {
+    list-style: none
+}
+
+button,
+input,
+select {
+    margin: 0
+}
+
+html {
+    box-sizing: border-box
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit
+}
+
+img,
+video {
+    height: auto;
+    max-width: 100%
+}
+
+iframe {
+    border: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,
+th {
+    padding: 0
+}
+
+/*Header*/
+
+.titlelogo_black {
+    font-family: 'Shrikhand';
+    text-align: center;
+    font-size: 30px;
+    justify-content: space-around;
+    padding-top: 9px;
+}
+
+/*localisation*/
+
+.localisation {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f3f3f3;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.locality {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: 'Roboto';
+}
+
+/*background */
+
+main.background_index {
+    border: #fafafa;
+    border-radius: 20%;
+}
+
+/*intro*/
+.container-bloc {
+    font-family: roboto;
+    padding-bottom: 2px;
+    background: whitesmoke;
+
+}
+
+.titleintro {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: bold;
+    padding-top: 28px;
+}
+
+.p-intro {
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 15px;
+    flex-direction: column-reverse;
+}
+
+.btn-explorer {
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 15px;
+    width: 59%;
+    height: 50px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Roboto;
+    background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
+    color: white;
+    box-shadow: 1px 8px 2px 1px #e8e7e7;
+}
+
+/*background*/
+.background_index {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: whitesmoke;
+    padding: 32px;
+    position: relative;
+    margin-top: -31px;
+}
+
+
+
+/* Selection resto */
+.container-bloc {
+    font-family: roboto;
+    padding-bottom: 2px;
+    background: #fafafa;
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title_container {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    font-family: roboto;
+
+}
+
+.select_resto,
+.select_menu {
+    border: none;
+    border-radius: 9px;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: roboto;
+    list-style-type: none;
+    box-shadow: 2px 2px 2px 3px #e8e7e7;
+    cursor: pointer;
+    font-weight: bold;
+    height: 60px;
+}
+
+.select_taste {
+    border: none;
+    border-radius: 9px;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #9256dc3e;
+    font-family: roboto;
+    list-style-type: none;
+    box-shadow: 2px 2px 2px 3px #e8e7e7;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background: #F5EDFF;
+    font-weight: bold;
+    height: 60px;
+}
+
+.card-text {
+    padding-top: 8px;
+}
+
+.text_menu {
+    margin-left: 22px;
+}
+
+.text_choice {
+    margin-left: 17px;
+}
+
+.text_taste {
+    margin-left: 15px;
+}
+
+.bloc_lign {
+    padding-top: 10px;
+}
+
+.fa-mobile-alt,
+.fa-list-ul,
+.fa-store {
+    color: #9c62e3b6;
+    margin-left: 15px;
+}
+
+/*cards restaurant*/
+.title_bloc {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+}
+
+.background {
+    background: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 91%;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 20px;
+    padding: 1px;
+    margin-left: 4%;
+    margin-top: 22px;
+    height: 256px;
+    box-shadow: 1px 5px 3px 1px #e8e7e7;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+    margin-top: -26px;
+    text-decoration: none;
+    position: relative;
+}
+
+.cards img {
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover;
+    margin-left: -9px;
+}
+
+.h4_text {
+    font-family: roboto;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
+
+.p_text {
+    font-family: roboto;
+    color: black;
+    margin-left: 10px;
+}
+
+.fa-heart .fa-2x {}
+
+.fa-heart .fa-2x :hover {
+    background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
+}
+
+.bloc-text {
+    margin-left: 10px;
+}
+
+.fa-heart {
+    flex-direction: row-reverse;
+    display: flex;
+    font-size: 23px;
+    color: black;
+    padding-right: 10px;
+    margin-left: -13px;
+    position: absolute;
+    right: 30px;
+}
+
+/*footer*/
+.footer_background {
+    background: black;
+    padding-bottom: 15px;
+}
+
+.titlelogo {
+    color: white;
+    font-family: 'Shrikhand';
+    font-size: 20px;
+    display: flex;
+    margin-left: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+
+}
+
+/*Desktop*/
+.container-bloc {
+    flex-direction: column;
+}
+
+.btn_bouton {
+    margin-bottom: 38px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.select_resto, .select_menu{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1px;
+}
+.select_taste{
+    display: flex;
+    justify-content: space-around;
+}
+.bloc_card-resto{
+    display: flex;
+    width: 96%;
+}
+.container-bloc1{
+    display: flex;
+    width: 99%;
+}
+
+@media all and (max-width: 992px) {
+    .container-bloc {
+        font-family: roboto;
+        padding-bottom: 2px;
+        background: #fafafa;
+        flex-flow: column;
+    }
+
+    .btn_bouton {
+        display: flex;
+        width: 59%;
+        margin-left: 66px;
+        justify-content: flex-end;
+    }
+    .btn-explorer{
+        width: 82%;
+        padding-top: 8px;
+    }
+    .btn_bouton{
+text-decoration: none;
+    }
+}
