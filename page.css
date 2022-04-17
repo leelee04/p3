@@ -3,23 +3,20 @@
 
 
 header img {
-    width: 100%;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     display: flex;
 }
 
-.arrow {
+.arrow{
     font-weight: black;
 }
-
 .fa-arrow-left {
     margin-left: 10px;
     margin-top: 10px;
-    color: black;
-
+    
 }
-
 /*title menu*/
 .title_menu {
     font-size: 25px;
@@ -27,7 +24,7 @@ header img {
     margin-left: 10px
 }
 
-.fa-heart .fa-2x {
+.fa-heart.fa-2xx {
     display: flex;
     justify-content: flex-end;
     margin-left: -11px;
@@ -49,7 +46,6 @@ button {
     box-shadow: 1px 8px 2px 1px #e8e7e7;
     cursor: pointer;
 }
-
 /*background*/
 .background_index {
     width: 100%;
@@ -60,10 +56,7 @@ button {
     position: relative;
     margin-top: -31px;
 }
-
 /*menu entry, plat,desserts*/
-.card1{
-}
 .menu__title {
     font-size: 15px;
     margin-top: 20px;
@@ -71,20 +64,17 @@ button {
     border-bottom: 2px solid rgb(18, 184, 134);
     width: 41px;
     margin-left: 10px;
-
+    
 }
-
-.menu-title {
+.menu-title{
     font-weight: bold;
     margin-top: 12px;
 
 }
-
 .price_menu {
     display: flex;
     flex-direction: row-reverse;
 }
-
 .border_white {
     border: 1px solid white;
     background: white;
@@ -92,14 +82,7 @@ button {
     padding-left: 10px;
     margin-top: 10px;
     box-shadow: 1px 8px 2px 1px #e8e7e7;
-    display: flex;
-    justify-content: space-between;
-}
-.dish{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 100px;
+    width: 310px;
 }
 
 .button_btn {
@@ -107,7 +90,6 @@ button {
     justify-content: space-evenly;
     padding-top: 28px;
 }
-
 /*footer*/
 .footer_background {
     background: #353535;
@@ -120,20 +102,11 @@ button {
     font-size: 20px;
     display: flex;
     margin-left: 10px;
-
+    
 }
-
-a {
+a{
     text-decoration: none;
     color: white;
     margin-left: 10px;
 
-}
-@media screen and (max-width: 992px) {
-    .header img{
-        width: 100%;
-    }
-    .border_white{
-        width: 100%;
-    }
 }
