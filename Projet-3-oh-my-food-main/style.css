@@ -350,29 +350,6 @@ a {
 
 }
 
-@media screen and (max-width: 992px) {
-    .container-bloc {
-        font-family: roboto;
-        padding-bottom: 2px;
-        background: #fafafa;
-        flex-flow: column;
-    }
-
-    .btn_bouton {
-        display: flex;
-        width: 59%;
-        margin-left: 66px;
-        justify-content: flex-end;
-    }
-    .btn-explorer{
-        width: 82%;
-        padding-top: 8px;
-    }
-    .btn_bouton{
-        
-    }
-}
-
 /*Desktop*/
 .container-bloc {
     flex-direction: column;
@@ -400,4 +377,27 @@ a {
 .container-bloc1{
     display: flex;
     width: 99%;
+}
+
+@media all and (max-width: 992px) {
+    .container-bloc {
+        font-family: roboto;
+        padding-bottom: 2px;
+        background: #fafafa;
+        flex-flow: column;
+    }
+
+    .btn_bouton {
+        display: flex;
+        width: 59%;
+        margin-left: 66px;
+        justify-content: flex-end;
+    }
+    .btn-explorer{
+        width: 82%;
+        padding-top: 8px;
+    }
+    .btn_bouton{
+
+    }
 }
