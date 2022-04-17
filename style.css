@@ -1,4 +1,4 @@
-/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+
 html,
 body,
 p,
@@ -76,8 +76,6 @@ th {
     padding: 0
 }
 
-@media screen and (max-width: 768px) {}
-
 /*Header*/
 
 .titlelogo_black {
@@ -85,19 +83,8 @@ th {
     text-align: center;
     font-size: 30px;
     justify-content: space-around;
+    padding-top: 9px;
 }
-header img {
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
-    display: flex;
-}
-
-.fa-arrow-left {
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
 
 /*localisation*/
 
@@ -115,6 +102,7 @@ header img {
     display: flex;
     align-items: center;
     margin-left: 10px;
+    font-family: 'Roboto';
 }
 
 /*background */
@@ -142,8 +130,9 @@ main.background_index {
 
 .p-intro {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 45px;
     font-size: 15px;
+    flex-direction: column-reverse;
 }
 
 .btn-explorer {
@@ -151,10 +140,10 @@ main.background_index {
     cursor: pointer;
     margin-top: 20px;
     font-size: 15px;
-    border: none;
     border-radius: 30px;
     padding: 15px;
-    width: 228px;
+    width: 59%;
+    height: 50px;
     text-align: center;
     padding-bottom: 10px;
     font-family: Roboto;
@@ -201,38 +190,61 @@ main.background_index {
 .select_menu {
     border: none;
     border-radius: 9px;
-    width: 250px;
+    width: 95%;
     padding: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     font-family: roboto;
     list-style-type: none;
-    box-shadow: 1px 2px 2px 1px #e8e7e7;
+    box-shadow: 2px 2px 2px 3px #e8e7e7;
     cursor: pointer;
     font-weight: bold;
+    height: 60px;
 }
 
 .select_taste {
     border: none;
     border-radius: 9px;
-    width: 250px;
+    width: 95%;
     padding: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     background-color: #9256dc3e;
     font-family: roboto;
     list-style-type: none;
-    box-shadow: 1px 3px 3px 1px #e8e7e7;
+    box-shadow: 2px 2px 2px 3px #e8e7e7;
     margin-bottom: 30px;
     cursor: pointer;
     background: #F5EDFF;
     font-weight: bold;
+    height: 60px;
+}
+
+.card-text {
+    padding-top: 8px;
+}
+
+.text_menu {
+    margin-left: 22px;
+}
+
+.text_choice {
+    margin-left: 17px;
+}
+
+.text_taste {
+    margin-left: 15px;
+}
+
+.bloc_lign {
+    padding-top: 10px;
 }
 
 .fa-mobile-alt,
 .fa-list-ul,
 .fa-store {
-    color: #9c62e3b6
+    color: #9c62e3b6;
+    margin-left: 15px;
 }
 
 /*cards restaurant*/
@@ -247,6 +259,7 @@ main.background_index {
 
 .background {
     background: whitesmoke;
+    padding-bottom: 10px;
 }
 
 .cards {
@@ -261,12 +274,14 @@ main.background_index {
     margin-top: 22px;
     height: 256px;
     box-shadow: 1px 5px 3px 1px #e8e7e7;
+    position: relative;
 }
 
 .card {
     width: 100%;
     margin-top: -26px;
     text-decoration: none;
+    position: relative;
 }
 
 .cards img {
@@ -292,7 +307,9 @@ main.background_index {
     margin-left: 10px;
 }
 
-.fa-heart fa-2x {
+.fa-heart .fa-2x {}
+
+.fa-heart .fa-2x :hover {
     background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
 }
 
@@ -300,19 +317,21 @@ main.background_index {
     margin-left: 10px;
 }
 
-.fa-heart.fa-2x {
+.fa-heart {
     flex-direction: row-reverse;
     display: flex;
     font-size: 23px;
     color: black;
     padding-right: 10px;
     margin-left: -13px;
+    position: absolute;
+    right: 30px;
 }
 
 /*footer*/
 .footer_background {
     background: black;
-    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .titlelogo {
@@ -331,4 +350,54 @@ a {
 
 }
 
-@media screen and (min-width: 1024px) {}
+/*Desktop*/
+.container-bloc {
+    flex-direction: column;
+}
+
+.btn_bouton {
+    margin-bottom: 38px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.select_resto, .select_menu{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1px;
+}
+.select_taste{
+    display: flex;
+    justify-content: space-around;
+}
+.bloc_card-resto{
+    display: flex;
+    width: 96%;
+}
+.container-bloc1{
+    display: flex;
+    width: 99%;
+}
+
+@media all and (max-width: 992px) {
+    .container-bloc {
+        font-family: roboto;
+        padding-bottom: 2px;
+        background: #fafafa;
+        flex-flow: column;
+    }
+
+    .btn_bouton {
+        display: flex;
+        width: 59%;
+        margin-left: 66px;
+        justify-content: flex-end;
+    }
+    .btn-explorer{
+        width: 82%;
+        padding-top: 8px;
+    }
+    .btn_bouton{
+
+    }
+}
