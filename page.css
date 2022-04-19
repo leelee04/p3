@@ -9,15 +9,16 @@ header img {
     display: flex;
 }
 
-.arrow {
-    font-weight: black;
-}
-
 .fa-arrow-left {
-    margin-left: 10px;
-    margin-top: 10px;
-    color: black;
 
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: black;
+    display: flex;
+}
+.bloc-logo-arrow{
+    display: flex;
+    align-items: flex-end;
 }
 
 /*title menu*/
@@ -62,8 +63,8 @@ button {
 }
 
 /*menu entry, plat,desserts*/
-.card1{
-}
+.card1 {}
+
 .menu__title {
     font-size: 15px;
     margin-top: 20px;
@@ -95,11 +96,16 @@ button {
     display: flex;
     justify-content: space-between;
 }
-.dish{
+.menu_price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.dish {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 100px;
+    width: 265px;
 }
 
 .button_btn {
@@ -129,11 +135,13 @@ a {
     margin-left: 10px;
 
 }
+
 @media screen and (max-width: 992px) {
-    .header img{
+    .header img {
         width: 100%;
     }
-    .border_white{
+
+    .border_white {
         width: 100%;
     }
 }
