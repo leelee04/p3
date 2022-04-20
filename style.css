@@ -74,32 +74,7 @@ td,
 th {
     padding: 0
 }
-
-/*DEBUT PARTIE TABLETTE*/
-@media all and (max-width: 992px) {
-    .container-bloc {
-        font-family: roboto;
-        padding-bottom: 2px;
-        background: #fafafa;
-        flex-flow: column;
-    }
-
-    .btn_bouton {
-        display: flex;
-        width: 59%;
-        margin-left: 66px;
-        justify-content: flex-end;
-    }
-
-    .btn-explorer {
-        width: 58%;
-        padding-top: 14px;
-    }
-}
-
-
 /* DEBUT PARTIE MOBILE*/
-@media all and (max-width: 768px) {
 
     /*Header*/
     .titlelogo_black {
@@ -420,8 +395,30 @@ th {
     .container-bloc1 {
         width: 99%;
     }
+/* FIN PARTIE MOBILE*
+
+/*DEBUT PARTIE TABLETTE*/
+@media (min-width: 768px ) and (max-width: 992px){
+    .container-bloc {
+        font-family: roboto;
+        padding-bottom: 2px;
+        background: #fafafa;
+        flex-flow: column;
+    }
+
+    .btn_bouton {
+        display: flex;
+        width: 59%;
+        margin-left: 66px;
+        justify-content: flex-end;
+    }
+
+    .btn-explorer {
+        width: 58%;
+        padding-top: 14px;
+    }
 }
-
-/* FIN PARTIE MOBILE*/
-
 /*DEBUT PARTIE DESKTOP*/
+@media (min-width: 993px){
+
+}
