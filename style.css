@@ -479,12 +479,10 @@ a {
     flex-direction: row;
     width: 96%;
 }
-    }
 
     .container-bloc1 {
         width: 100%;
-        display: flex;
+    display: flex;
+    flex-direction: row;
     }
-}
-
 }
