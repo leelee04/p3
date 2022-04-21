@@ -200,7 +200,8 @@ main.background_index {
     font-family: roboto;
 
 }
-.btn-number{
+
+.btn-number {
     width: 25px;
     border-radius: 50%;
     background-color: #9356dc;
@@ -377,37 +378,6 @@ a {
 
 }
 
-/*Desktop*/
-.container-bloc {
-    flex-direction: column;
-}
-
-.btn_bouton {
-    margin-bottom: 38px;
-    display: flex;
-    width: 84%;
-    flex-direction: row-reverse;
-    margin-left: -25px;
-}
-.select_resto,
-.select_menu {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 1px;
-}
-
-.select_taste {
-    display: flex;
-    justify-content: space-around;
-}
-
-.bloc_card-resto {
-    display: flex;
-}
-
-.container-bloc1 {
-    width: 99%;
-}
 
 /* FIN PARTIE MOBILE*
 
@@ -431,7 +401,55 @@ a {
         width: 58%;
         padding-top: 14px;
     }
-}
 
-/*DEBUT PARTIE DESKTOP*/
-@media (min-width: 993px) {}
+    .bloc_lign {
+        display: flex;
+        justify-content: center;
+        margin-top: -22px;
+    }
+
+    .btn-number {
+        right: 19px;
+    }
+
+    .container-bloc1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*DEBUT PARTIE DESKTOP*/
+    @media (min-width: 993px) {
+        .container-bloc {
+            flex-direction: column;
+        }
+
+        .btn_bouton {
+            margin-bottom: 38px;
+            display: flex;
+            width: 84%;
+            flex-direction: row-reverse;
+            margin-left: -25px;
+        }
+
+        .select_resto,
+        .select_menu {
+            display: flex;
+            justify-content: space-around;
+            padding-left: 1px;
+        }
+
+        .select_taste {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .bloc_card-resto {
+            display: flex;
+        }
+
+        .container-bloc1 {
+            width: 99%;
+        }
+
+    }
