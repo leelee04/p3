@@ -217,29 +217,31 @@ a {
     }
 
     .dish {
-}
-
-/*desktop*/
-@media (min-width: 993px) {
-    .three-blocs {
-        display: flex;
-        flex-direction: row;
-        align-content: flex-start;
+        width: 650px;
     }
 
-    .dish {
-        width: 822px;
-    }
+    /*desktop*/
+    @media (min-width: 993px) {
+        .three-blocs {
+            display: flex;
+            flex-direction: row;
+            align-content: flex-start;
+        }
 
-    .border_white {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 15px;
-        margin-left: 24px;
-    }
+        .dish {
+            width: 822px;
+        }
 
-    .bloc-menu-center {
-        flex-direction: column;
-        align-items: center;
+        .border_white {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            margin-left: 24px;
+        }
+
+        .bloc-menu-center {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
