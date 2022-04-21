@@ -218,6 +218,9 @@ main.background_index {
     padding: 3px 8px 7px;
     height: 25px;
 }
+.container-bloc1{
+flex-direction: column;
+}
 
 .select_resto,
 .select_menu {
@@ -470,8 +473,6 @@ a {
         align-items: center;
         margin-top: -6px;
     }
-
-    .btn-number {}
 
     .bloc_card-resto {
         display: flex;
