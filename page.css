@@ -216,10 +216,6 @@ a {
         align-items: center;
     }
 
-    .dish {
-        width: 650px;
-    }
-
     /*desktop*/
     @media (min-width: 993px) {
         .three-blocs {
