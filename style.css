@@ -481,8 +481,8 @@ a {
 }
 
     .container-bloc1 {
-        width: 100%;
-    display: flex;
-    flex-direction: row;
+        width: 98%;
+        display: flex;
+        flex-direction: row;
     }
 }

@@ -196,7 +196,7 @@ a {
 /*FIN PARTIE MOBILE*/
 
 /*DEBUT PARTIE TABLETTE*/
-@media all and (max-width: 992px) {
+@media (max-width: 992px) {
     .header img {
         width: 100%;
     }
@@ -204,7 +204,7 @@ a {
     .border_white {
         display: flex;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .card1 {
@@ -220,19 +220,31 @@ a {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 293px;
+        width: 624px;
     }
 }
 
 /*desktop*/
 @media (min-width: 993px) {
-    .entry-animation {
-            margin-bottom: 2.25em;
-            animation: fadein 1s linear;
-            animation-delay: 0.5s;
-            animation-fill-mode: both;
-        }
-        .dish{
-            width: 822px;
-        }
+    .three-blocs {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
     }
+
+    .dish {
+        width: 822px;
+    }
+
+    .border_white {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 15px;
+        margin-left: 24px;
+    }
+
+    .bloc-menu-center {
+        flex-direction: column;
+        align-items: center;
+    }
+}
