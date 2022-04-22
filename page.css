@@ -47,12 +47,13 @@ button {
     width: 228px;
     text-align: center;
     padding-bottom: 10px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
     color: white;
     box-shadow: 1px 8px 2px 1px #e8e7e7;
     cursor: pointer;
 }
+
 
 /*background*/
 .background_index {
@@ -71,7 +72,7 @@ button {
     align-items: center;
 }
 
-/*.menu__btn:hover::before {
+.menu__btn:hover::before {
     opacity: 1;
 }
 
@@ -215,29 +216,38 @@ a {
         justify-content: center;
         align-items: center;
     }
+}
 
-    /*desktop*/
-    @media (min-width: 993px) {
-        .three-blocs {
-            display: flex;
-            flex-direction: row;
-            align-content: flex-start;
-        }
-
-        .dish {
-            width: 822px;
-        }
-
-        .border_white {
-            display: flex;
-            justify-content: space-between;
-            padding-bottom: 15px;
-            margin-left: 24px;
-        }
-
-        .bloc-menu-center {
-            flex-direction: column;
-            align-items: center;
-        }
+/*desktop*/
+@media (min-width: 993px) {
+    /*
+    .three-blocs {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-start;
     }
+    */
+
+    .dish {
+        width: 32%;
+    }
+
+    .border_white {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 15px;
+        margin-left: 24px;
+        width: 98%;
+        margin-left: 14px;
+    }
+
+    .bloc-menu-center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-plats {
+        display: flex;
+    }
+
 }
