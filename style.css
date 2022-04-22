@@ -117,16 +117,17 @@ th {
 main.background_index {
     border: #fafafa;
     border-radius: 20%;
+    font-family: 'roboto';
 }
 
 
 
 /*intro*/
 .container-intro {
-    font-family: 'roboto';
     padding-bottom: 41px;
     background: whitesmoke;
-    ;
+    font-weight: bold;
+    font-family: 'roboto';
 
 }
 
@@ -160,6 +161,11 @@ main.background_index {
     background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
     color: white;
     box-shadow: 1px 8px 2px 1px #e8e7e7;
+    transform: scale(1);
+}
+
+.btn-explorer:hover {
+    transform: scale(1.15);
 }
 
 .btn_bouton {
@@ -219,8 +225,9 @@ main.background_index {
     padding: 3px 8px 7px;
     height: 25px;
 }
-.container-bloc1{
-flex-direction: column;
+
+.container-bloc1 {
+    flex-direction: column;
 }
 
 .select_resto,
@@ -316,6 +323,29 @@ flex-direction: column;
     height: 256px;
     box-shadow: 1px 5px 3px 1px #e8e7e7;
     position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.new {
+    background-color: #99E2D0;
+    color: #1A9778;
+    padding: 8px;
+    border-radius: 2px;
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    font-weight: bold;
+}
+
+.clignotte {
+    color: green;
+    animation: clignote 2s linear infinite;
+}
+
+@keyframes clignote {
+    60% {
+        opacity: 0.5;
+    }
 }
 
 .card {
@@ -347,8 +377,6 @@ flex-direction: column;
     color: black;
     margin-left: 10px;
 }
-
-.fa-heart .fa-2x {}
 
 .fa-heart .fa-2x :hover {
     background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
@@ -388,6 +416,8 @@ a {
     text-decoration: none;
     color: white;
     margin-left: 10px;
+    font-family: roboto;
+    
 
 }
 
@@ -477,9 +507,9 @@ a {
 
     .bloc_card-resto {
         display: flex;
-    flex-direction: row;
-    width: 96%;
-}
+        flex-direction: row;
+        width: 96%;
+    }
 
     .container-bloc1 {
         width: 98%;
