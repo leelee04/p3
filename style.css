@@ -127,7 +127,7 @@ main.background_index {
     padding-bottom: 41px;
     background: whitesmoke;
     font-weight: bold;
-    font-family: 'roboto';
+    font-family: 'Roboto';
 
 }
 
@@ -157,7 +157,7 @@ main.background_index {
     height: 50px;
     text-align: center;
     padding-bottom: 10px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
     color: white;
     box-shadow: 1px 8px 2px 1px #e8e7e7;
@@ -195,7 +195,7 @@ main.background_index {
 }
 
 .container-bloc {
-    font-family: roboto;
+    font-family: 'Roboto';
     padding-bottom: 2px;
     background: #fafafa;
     display: flex;
@@ -210,7 +210,7 @@ main.background_index {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 10px;
-    font-family: roboto;
+    font-family: 'Roboto';
 
 }
 
@@ -255,7 +255,7 @@ main.background_index {
     margin-bottom: 10px;
     margin-left: 22px;
     background-color: #9256dc3e;
-    font-family: roboto;
+    font-family: 'Roboto';
     list-style-type: none;
     box-shadow: 2px 2px 2px 3px #e8e7e7;
     margin-bottom: 30px;
@@ -297,7 +297,7 @@ main.background_index {
 
 /*cards restaurant*/
 .title_bloc {
-    font-family: roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 25px;
     margin-left: 10px;
@@ -366,14 +366,14 @@ main.background_index {
 }
 
 .h4_text {
-    font-family: roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     color: black;
     margin-left: 10px;
 }
 
 .p_text {
-    font-family: roboto;
+    font-family: 'Roboto';
     color: black;
     margin-left: 10px;
 }
@@ -416,7 +416,7 @@ a {
     text-decoration: none;
     color: white;
     margin-left: 10px;
-    font-family: roboto;
+    font-family: 'Roboto';
     
 
 }
@@ -426,7 +426,7 @@ a {
 /*DEBUT PARTIE TABLETTE*/
 @media (min-width: 768px) and (max-width: 992px) {
     .container-bloc {
-        font-family: roboto;
+        font-family: 'Roboto';
         padding-bottom: 2px;
         background: #fafafa;
         flex-flow: column;

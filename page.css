@@ -51,7 +51,7 @@ button {
     color: white;
     box-shadow: 1px 8px 2px 1px #e8e7e7;
     cursor: pointer;
-    font-family: 'roboto';
+    font-family: 'Roboto';
 }
 
 
@@ -130,6 +130,7 @@ button {
 .menu-title {
     font-weight: bold;
     margin-top: 12px;
+    font-family: 'Roboto';
 
 }
 
