@@ -169,37 +169,27 @@ button {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
-.dishes__card__check {
-    height: 70px;
-    width: 60px;
-    opacity: 0;
+.dishes__card__check{
     background-color: #99E2D0;
-    margin-left: 25px;
-    margin-right: -70px;
-    border-radius: 0 10px 10px 0;
+    margin: 3px 0px -15px 0px;
+    width: 72px;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transition: all 0.7s ease-in-out;
-    -o-transition: all 0.7s ease-in-out;
-    transition: all 0.7s ease-in-out;
+    transition-duration: 0.5s;
 }
+
 .check_icons{
-background-color: white;
-font-size: 20px;
-opacity: 0;
--webkit-transform: rotate(0deg);
--ms-transform: rotate(0deg);
-transform: rotate(0deg);
--webkit-transition: all 0.7s ease-in-out;
--o-transition: all 0.7s ease-in-out;
-transition: all 0.7s ease-in-out;
-}
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: rotate(0deg);
+    transition-duration: 0.5s;
+    }
 
 .button_btn {
     display: flex;
