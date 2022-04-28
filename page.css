@@ -149,6 +149,12 @@ button {
     display: flex;
     justify-content: space-between;
     padding-bottom: 15px;
+    transition: all 0.2s;
+}
+
+.border_white:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
 }
 
 .menu_price {
@@ -164,10 +170,46 @@ button {
     text-overflow: ellipsis;
 }
 
+.dishes__card__check {
+    height: 70px;
+    width: 60px;
+    opacity: 0;
+    background-color: #99E2D0;
+    margin-left: 25px;
+    margin-right: -70px;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.check_icons{
+background-color: white;
+font-size: 20px;
+opacity: 0;
+-webkit-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+}
+
 .button_btn {
     display: flex;
     justify-content: space-evenly;
     padding-top: 28px;
+    transform: scale(1);
+}
+
+.button_btn:hover {
+    transform: scale(1.15);
 }
 
 /*footer*/
