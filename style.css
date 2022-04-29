@@ -373,16 +373,6 @@ main.background_index {
     font-weight: bold;
 }
 
-.clignotte {
-    color: green;
-    animation: clignote 2s linear infinite;
-}
-
-@keyframes clignote {
-    60% {
-        opacity: 0.5;
-    }
-}
 
 .card {
     width: 100%;
