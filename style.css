@@ -406,11 +406,11 @@ main.background_index {
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
   transform: scale(1.01);
 }
-.menu__btn:hover::before {
+.menu__btn2:hover::before {
     opacity: 1;
   }
   
-  .menu__btn::before {
+  .menu__btn2::before {
     opacity: 0;
     -webkit-transition: 1s;
     transition: 1s;
@@ -424,7 +424,7 @@ main.background_index {
     background-image: linear-gradient(0deg, #9356DC, #FF79DA 100%);
   }
   
-  .menu__coeur {
+  .menu__coeur2 {
     -webkit-transition-duration: .25s;
             transition-duration: .25s;
     background-color: #f6f6f6;
@@ -445,7 +445,7 @@ main.background_index {
     mix-blend-mode: lighten;
   }
   
-  .menu__btn:hover .menu__coeur--nobackground {
+  .menu__btn2:hover .menu__coeur--nobackground {
     opacity: 0;
   }
 .h4_text {
