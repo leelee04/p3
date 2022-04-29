@@ -31,10 +31,12 @@ header img {
     margin-left: 10px;
 }
 
-.fa-heart .fa-2x {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: -11px;
+.fa-heart  {
+    color:black;
+    font-size: 20px;
+    position: absolute;
+    right:0
+
 }
 
 button {
@@ -67,15 +69,8 @@ button {
 
 .bloc-menu-center {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    position:relative;
 }
-
-.menu__btn:hover::before {
-    opacity: 1;
-}
-
-
 
 /*menu entry, plat,desserts*/
 
@@ -112,12 +107,16 @@ button {
     display: flex;
     justify-content: space-between;
     padding-bottom: 15px;
-    transition: all 0.2s;
+    overflow: hidden;
+    width: 300px;
+
+}
+.border_white:hover .dishes__card__check{
+    margin-left: -100px;
 }
 
 .border_white:hover {
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
-    transform: scale(1.01);
 }
 
 .menu_price {
@@ -133,24 +132,29 @@ button {
     text-overflow: ellipsis;
 }
 .dishes__card__check{
-    color: #f6f6f6;
     background-color: #99e2d0;
-    font-size: 29px;
-    text-align: center;
-    height: 61px;
-    line-height: 60px;
-    white-space: nowrap;
-    border-top-right-radius: 20px 20px;
-    border-bottom-right-radius: 20px 20px;
-    transform: translateX(100px);
-    cursor: pointer;
-    transition: all 700ms;
-    
+    margin: -1rem -5rem -1rem 1rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icone-check{
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    transform: rotate(400deg);
+ 
+}    
+.fa-check{
+    color: #99e2d0;
 }
 
-.check_icons{
-
-    }
 
 .button_btn {
     display: flex;

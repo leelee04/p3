@@ -314,6 +314,7 @@ main.background_index {
 
 .card-text {
     padding-top: 8px;
+    position: relative;
 }
 
 .text_menu {
@@ -408,11 +409,14 @@ main.background_index {
     transform: scale(1.01);
 }
 
-fa-heart {
+.fa-heart {
     font-size: 1.5rem;
     padding-right: 0.5rem;
     cursor: pointer;
-    border: black;
+    color: black;
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
 }
 
 .fa-heart:hover {
