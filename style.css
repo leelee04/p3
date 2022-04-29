@@ -277,8 +277,9 @@ main.background_index {
     height: 60px;
     background: white;
 }
-.select_resto,
-.select_menu:hover {
+.select_resto:hover {
+    background-color: #F5EDFF;
+}.select_menu:hover {
     background-color: #F5EDFF;
 }
 .select_taste {
@@ -406,8 +407,8 @@ main.background_index {
     transition: 1s;
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 20px;
+    right: 20px;
     width: 50px;
     height: 50px;
     background-image: -webkit-gradient(linear, left bottom, left top, #9356DC, #FF79DA);
@@ -419,9 +420,9 @@ main.background_index {
             transition-duration: .25s;
     background-color: #f6f6f6;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
+    right: 20px;
+    bottom: 20px;
+        width: 50px;
     height: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -451,23 +452,8 @@ main.background_index {
     margin-left: 10px;
 }
 
-.fa-heart .fa-2x :hover {
-    background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
-}
-
 .bloc-text {
     margin-left: 10px;
-}
-
-.fa-heart {
-    flex-direction: row-reverse;
-    display: flex;
-    font-size: 23px;
-    color: black;
-    padding-right: 10px;
-    margin-left: -13px;
-    position: absolute;
-    right: 30px;
 }
 
 /*footer*/
