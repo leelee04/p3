@@ -76,37 +76,44 @@ th {
 }
 
 /*LOADER*/
-.loader-container {
-    background: #f1f1f1;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 1s ease-in-out;
-}
-
-.dot {
-    width: 50px;
-    height: 50px;
+.chargement {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid rgba(147, 86, 220, .9);
+    border-bottom: 10px solid rgba(255, 121, 218, .9);
     border-radius: 50%;
-    background: black;
-    margin: 0 15px;
-    animation: loader infinite 0.3s alternate;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+   
+
+    /*Placement du loader au milieu de la page*/
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
-.d2 {
-    animation-delay: 0.05s;
-}
+/*animation du loader */
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
 
-.d3 {
-    animation-delay: 0.1s;
-}
-
-@keyframes loader {
     100% {
-        transform: translateY (-30px);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
     }
 }
 
@@ -494,140 +501,141 @@ main.background_index {
         font-weight: bold;
     }
 }
-    .h4_text {
-        font-family: 'Roboto';
-        font-weight: bold;
-        color: black;
-        margin-left: 10px;
-    }
 
-    .p_text {
-        font-family: 'Roboto';
-        color: black;
-        margin-left: 10px;
-    }
+.h4_text {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
 
-    .bloc-text {
-        margin-left: 10px;
-    }
+.p_text {
+    font-family: 'Roboto';
+    color: black;
+    margin-left: 10px;
+}
 
-    /*footer*/
-    .footer_background {
-        background: black;
-        padding-bottom: 15px;
-    }
+.bloc-text {
+    margin-left: 10px;
+}
 
-    .titlelogo {
-        color: white;
-        font-family: 'Shrikhand';
-        font-size: 20px;
-        display: flex;
-        margin-left: 10px;
+/*footer*/
+.footer_background {
+    background: black;
+    padding-bottom: 15px;
+}
 
-    }
+.titlelogo {
+    color: white;
+    font-family: 'Shrikhand';
+    font-size: 20px;
+    display: flex;
+    margin-left: 10px;
 
-    a {
-        text-decoration: none;
-        color: white;
-        margin-left: 10px;
-        font-family: 'Roboto';
+}
 
-
-    }
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-family: 'Roboto';
 
 
-    /* FIN PARTIE MOBILE*
+}
+
+
+/* FIN PARTIE MOBILE*
 /*DEBUT PARTIE TABLETTE*/
-    @media (min-width: 768px) and (max-width: 992px) {
-        .container-bloc {
-            font-family: 'Roboto';
-            padding-bottom: 2px;
-            background: #fafafa;
-            flex-flow: column;
-        }
-
-        .btn_bouton {
-            display: flex;
-            width: 59%;
-            margin-left: 66px;
-            justify-content: flex-end;
-        }
-
-        .btn-explorer {
-            width: 58%;
-            padding-top: 14px;
-        }
-
-        .bloc_lign {
-            display: flex;
-            justify-content: center;
-            margin-top: -22px;
-        }
-
-        .btn-number {
-            right: 19px;
-        }
-
-        .container-bloc1 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+@media (min-width: 768px) and (max-width: 992px) {
+    .container-bloc {
+        font-family: 'Roboto';
+        padding-bottom: 2px;
+        background: #fafafa;
+        flex-flow: column;
     }
 
-    /*DEBUT PARTIE DESKTOP*/
-    @media (min-width: 993px) {
-        .container-bloc {
-            flex-direction: column;
-        }
-
-        .container-intro {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding-bottom: 6px;
-        }
-
-        .btn_bouton {
-            margin-bottom: 38px;
-            display: flex;
-            width: 84%;
-            flex-direction: row-reverse;
-            margin-left: -25px;
-        }
-
-        .btn-explorer {
-            width: 30%;
-            margin-left: 22px;
-        }
-
-        .select_resto,
-        .select_menu {
-            display: flex;
-            justify-content: space-around;
-            padding-left: 1px;
-        }
-
-        .select_taste {
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .bloc_lign {
-            display: flex;
-            align-items: center;
-            margin-top: -6px;
-        }
-
-        .bloc_card-resto {
-            display: flex;
-            flex-direction: row;
-            width: 96%;
-        }
-
-        .container-bloc1 {
-            width: 98%;
-            display: flex;
-            flex-direction: row;
-        }
+    .btn_bouton {
+        display: flex;
+        width: 59%;
+        margin-left: 66px;
+        justify-content: flex-end;
     }
+
+    .btn-explorer {
+        width: 58%;
+        padding-top: 14px;
+    }
+
+    .bloc_lign {
+        display: flex;
+        justify-content: center;
+        margin-top: -22px;
+    }
+
+    .btn-number {
+        right: 19px;
+    }
+
+    .container-bloc1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*DEBUT PARTIE DESKTOP*/
+@media (min-width: 993px) {
+    .container-bloc {
+        flex-direction: column;
+    }
+
+    .container-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 6px;
+    }
+
+    .btn_bouton {
+        margin-bottom: 38px;
+        display: flex;
+        width: 84%;
+        flex-direction: row-reverse;
+        margin-left: -25px;
+    }
+
+    .btn-explorer {
+        width: 30%;
+        margin-left: 22px;
+    }
+
+    .select_resto,
+    .select_menu {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 1px;
+    }
+
+    .select_taste {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bloc_lign {
+        display: flex;
+        align-items: center;
+        margin-top: -6px;
+    }
+
+    .bloc_card-resto {
+        display: flex;
+        flex-direction: row;
+        width: 96%;
+    }
+
+    .container-bloc1 {
+        width: 98%;
+        display: flex;
+        flex-direction: row;
+    }
+}
