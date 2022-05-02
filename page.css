@@ -122,11 +122,11 @@ button {
 }
 
 .border_white:hover .dishes__card__check {
-    right: 4rem;
+    right: 64px;
 }
 
 .border_white:hover .price_menu {
-    margin-right: 4rem;
+    margin-right: 64px;
 
 }
 
@@ -154,8 +154,8 @@ button {
 
 .dishes__card__check {
     background-color: #99e2d0;
-    margin: -1rem -4rem -1rem 1rem;
-    width: 4rem;
+    margin: -16px -64px -16px 16px;
+    width: 64px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,8 +166,8 @@ button {
 }
 
 .icone-check {
-    height: 1.6rem;
-    width: 1.6rem;
+    height: 17px;
+    width: 17px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -190,7 +190,7 @@ button {
 }
 
 .button_btn:hover {
-    transform: scale(1.15);
+    transform: scale(1.03);
 }
 
 /*footer*/
@@ -251,6 +251,7 @@ a {
         margin-left: 24px;
         width: 100%;
         margin-left: 14px;
+        animation-delay: .6s;
     }
     .card1 {
         width: 32%;
@@ -260,7 +261,10 @@ a {
         justify-content: center;
 
     }
-
+    .bloc_plat{
+        -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.055, 0.675, 0.190) 1s forwards;
+	    animation: text-focus-in 1s cubic-bezier(0.550, 0.055, 0.675, 0.190) 1s forwards;
+    }
     .bloc-menu-center {
         flex-direction: column;
     }

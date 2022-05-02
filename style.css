@@ -85,6 +85,7 @@ th {
     height: 100px;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
+
    
 
     /*Placement du loader au milieu de la page*/
@@ -94,7 +95,6 @@ th {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 999;
 }
 
 /*animation du loader */
@@ -105,18 +105,23 @@ th {
 
     100% {
         -webkit-transform: rotate(360deg);
-        
+        z-index:5;
+        opacity:0;
     }
 }
 
 @keyframes spin {
     0% {
         transform: rotate(0deg);
+        
     }
 
     100% {
         transform: rotate(360deg);
-        opacity: 0;
+        z-index:-9;
+        opacity:0;
+        display: none;
+
     }
 }
 
@@ -212,7 +217,7 @@ main.background_index {
 }
 
 .btn-explorer:hover {
-    transform: scale(1.15);
+    transform: scale(1.03);
 }
 
 .btn_bouton {
@@ -421,8 +426,8 @@ main.background_index {
 }
 
 .fa-heart {
-    font-size: 1.5rem;
-    padding-right: 0.5rem;
+    font-size: 24px;
+    padding-right: 8px;
     cursor: pointer;
     color: black;
     position: absolute;
@@ -603,7 +608,7 @@ a {
     .btn_bouton {
         margin-bottom: 38px;
         display: flex;
-        width: 84%;
+        width: 68%;
         flex-direction: row-reverse;
         margin-left: -25px;
     }
