@@ -94,6 +94,7 @@ th {
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 999;
 }
 
 /*animation du loader */
@@ -104,6 +105,7 @@ th {
 
     100% {
         -webkit-transform: rotate(360deg);
+        
     }
 }
 
@@ -114,6 +116,7 @@ th {
 
     100% {
         transform: rotate(360deg);
+        opacity: 0;
     }
 }
 
