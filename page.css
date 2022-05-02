@@ -31,12 +31,11 @@ header img {
     margin-left: 10px;
 }
 
-.fa-heart  {
-    color:black;
+.fa-heart {
+    color: black;
     font-size: 20px;
     position: absolute;
-    right:0
-
+    right: 0
 }
 
 button {
@@ -46,7 +45,7 @@ button {
     border: none;
     border-radius: 30px;
     padding: 15px;
-    width: 228px;
+    width: 16%;
     text-align: center;
     padding-bottom: 10px;
     background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
@@ -69,7 +68,16 @@ button {
 
 .bloc-menu-center {
     display: flex;
-    position:relative;
+    position: relative;
+}
+
+.card1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
 }
 
 /*menu entry, plat,desserts*/
@@ -112,21 +120,25 @@ button {
     position: relative;
 
 }
-.border_white:hover .dishes__card__check{
-right: 4rem;
+
+.border_white:hover .dishes__card__check {
+    right: 4rem;
 }
 
-.border_white:hover .price_menu{
+.border_white:hover .price_menu {
     margin-right: 4rem;
 
-    }
+}
+
 .border_white:hover {
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
 }
-.border_white:hover .fa-check{
-transform: rotate(360deg);
-transition-duration: 1s;
+
+.border_white:hover .fa-check {
+    transform: rotate(360deg);
+    transition-duration: 1s;
 }
+
 .menu_price {
     display: flex;
     justify-content: space-evenly;
@@ -139,7 +151,8 @@ transition-duration: 1s;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.dishes__card__check{
+
+.dishes__card__check {
     background-color: #99e2d0;
     margin: -1rem -4rem -1rem 1rem;
     width: 4rem;
@@ -151,8 +164,8 @@ transition-duration: 1s;
     height: 100px;
     right: 0;
 }
-    
-.icone-check{
+
+.icone-check {
     height: 1.6rem;
     width: 1.6rem;
     background-color: #fff;
@@ -161,9 +174,10 @@ transition-duration: 1s;
     justify-content: center;
     border-radius: 100px;
     transform: rotate(400deg);
- 
-}    
-.fa-check{
+
+}
+
+.fa-check {
     color: #99e2d0;
 }
 
@@ -214,15 +228,6 @@ a {
         width: 100%;
         justify-content: space-between;
     }
-
-    .card1 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-
-    }
 }
 
 /*desktop*/
@@ -247,20 +252,24 @@ a {
         width: 100%;
         margin-left: 14px;
     }
+    .card1 {
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+    }
 
     .bloc-menu-center {
         flex-direction: column;
-        align-items: center;
     }
 
     .card-plats {
         display: flex;
         justify-content: space-between;
         width: 97%;
-    }
-
-    .card1 {
-        width: 32%;
+        margin-top: 38px;
     }
 
     .menu-center {

@@ -190,6 +190,7 @@ main.background_index {
     font-size: 15px;
     flex-direction: column-reverse;
     font-family: 'Roboto';
+    font-weight: 300;
 }
 
 .btn-explorer {
