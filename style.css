@@ -85,16 +85,8 @@ th {
     position: fixed;
     z-index: 3;
     background-color: white;
-    animation: loader 1s 1s both;
-}
-
-@keyframes loader {
-    100% {
-        opacity: 0;
-        z-index: -1;
+    animation: loader 2s 2s both;
     }
-}
-
 .loader__circle {
     width: 120px;
     height: 120px;
@@ -103,16 +95,18 @@ th {
     border-bottom: 15px solid #ff79da;
     border-left: 15px solid #99e2d0;
     border-radius: 50%;
-    animation: rebound 0.4s alternate infinite;
+    animation: loader 4s linear infinite;
 }
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
+@keyframes loader {
+    0%{
+        transform: rotate(0deg) scale (1);
     }
-
+    50%{
+        transform: rotate(360deg) scale (1,15);
+    }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(720deg) scale (1);
+        opacity: 0;
     }
 }
 
