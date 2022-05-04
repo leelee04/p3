@@ -83,8 +83,8 @@ th {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    -webkit-animation: spin 3s linear infinite;
-    animation: spin 3s linear infinite;
+    -webkit-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
 
    
 
@@ -107,6 +107,7 @@ th {
         -webkit-transform: rotate(360deg);
         z-index:5;
         opacity:0;
+        display: none;
     }
 }
 
