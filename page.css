@@ -251,7 +251,8 @@ a {
         margin-left: 24px;
         width: 100%;
         margin-left: 14px;
-        animation-delay: .6s;
+        opacity: 1;
+    animation: apparition-menu 1s ease-in-out;
     }
     .card1 {
         width: 32%;
