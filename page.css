@@ -45,7 +45,7 @@ button {
     border: none;
     border-radius: 30px;
     padding: 15px;
-    width: 16%;
+    width: 51%;
     text-align: center;
     padding-bottom: 10px;
     background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
@@ -117,7 +117,7 @@ button {
     width: 300px;
     position: relative;
     animation: border_white 3s;
-    overflow:hidden
+    overflow: hidden
 }
 
 @keyframes border_white {
@@ -125,6 +125,7 @@ button {
         transform: translateY(-100px);
         opacity: 0;
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -195,9 +196,11 @@ button {
 
 .button_btn {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-top: 28px;
     transform: scale(1);
+    width: 100%;
+}
 }
 
 .button_btn:hover {
@@ -239,6 +242,9 @@ a {
         width: 100%;
         justify-content: space-between;
     }
+    button{
+        width: 28%
+    }
 }
 
 /*desktop*/
@@ -265,16 +271,19 @@ a {
         opacity: 1;
         animation: border_white 3s;
     }
-@keyframes border_white {
-    0% {
-        transform: translateY(-200px);
-        opacity: 0;
+
+    @keyframes border_white {
+        0% {
+            transform: translateY(-200px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
     }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
+
     .card1 {
         width: 32%;
         display: flex;
@@ -304,5 +313,8 @@ a {
     .menu-center {
         display: flex;
         justify-content: space-around;
+    }
+    button {
+        width: 22%;
     }
 }
