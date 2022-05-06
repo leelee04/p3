@@ -28,7 +28,7 @@ header img {
 .title_menu {
     font-size: 25px;
     font-family: 'Shrikhand';
-    margin-left: 10px;
+    margin-left: -15px;
 }
 
 .fa-heart {
@@ -116,18 +116,18 @@ button {
     padding-bottom: 15px;
     width: 300px;
     position: relative;
-    animation: plat 3s;
+    animation: border_white 3s;
+    overflow:hidden
 }
 
-@keyframes plat {
+@keyframes border_white {
     0% {
-        transform: translateY(-200px);
+        transform: translateY(-100px);
         opacity: 0;
     }
-
     100% {
-        transform: translateY(0px);
-        opacity:1;
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
@@ -173,6 +173,7 @@ button {
     top: 0;
     height: 100px;
     right: 0;
+    opacity: 1;
 }
 
 .icone-check {
@@ -262,9 +263,18 @@ a {
         width: 100%;
         margin-left: 14px;
         opacity: 1;
-        animation: apparition-menu 1s ease-in-out;
+        animation: border_white 3s;
     }
-
+@keyframes border_white {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
     .card1 {
         width: 32%;
         display: flex;
@@ -273,6 +283,7 @@ a {
         justify-content: center;
 
     }
+
 
     .bloc_plat {
         -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.055, 0.675, 0.190) 1s forwards;
