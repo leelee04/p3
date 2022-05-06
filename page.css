@@ -77,7 +77,6 @@ button {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-
 }
 
 /*menu entry, plat,desserts*/
@@ -115,10 +114,21 @@ button {
     display: flex;
     justify-content: space-between;
     padding-bottom: 15px;
-    overflow: hidden;
     width: 300px;
     position: relative;
+    animation: plat 3s;
+}
 
+@keyframes plat {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity:1;
+    }
 }
 
 .border_white:hover .dishes__card__check {
@@ -252,8 +262,9 @@ a {
         width: 100%;
         margin-left: 14px;
         opacity: 1;
-    animation: apparition-menu 1s ease-in-out;
+        animation: apparition-menu 1s ease-in-out;
     }
+
     .card1 {
         width: 32%;
         display: flex;
@@ -262,10 +273,12 @@ a {
         justify-content: center;
 
     }
-    .bloc_plat{
+
+    .bloc_plat {
         -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.055, 0.675, 0.190) 1s forwards;
-	    animation: text-focus-in 1s cubic-bezier(0.550, 0.055, 0.675, 0.190) 1s forwards;
+        animation: text-focus-in 1s cubic-bezier(0.550, 0.055, 0.675, 0.190) 1s forwards;
     }
+
     .bloc-menu-center {
         flex-direction: column;
     }
