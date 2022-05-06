@@ -99,20 +99,19 @@ th {
 }
 @keyframes loader {
     0%{
-        transform: rotate(0deg) scale (1);
-        opacity: 1;
+        transform: rotate(0deg);
     }
     50%{
-        transform: rotate(360deg) scale (1,15);
+        transform: rotate(360deg) ;
     }
     100% {
-        transform: rotate(720deg) scale (1);
+        transform: rotate(720deg) ;
         opacity: 0;
         display:none;
         z-index:0;
         width: 0;
         height: 0;
-    }
+    }    
 }
 
 /* DEBUT PARTIE MOBILE*/
@@ -177,6 +176,7 @@ main.background_index {
     margin-bottom: 16px;
     font-weight: bold;
     padding-top: 28px;
+    font-family: 'Roboto';
 }
 
 .p-intro {
@@ -388,6 +388,7 @@ main.background_index {
     top: 16px;
     right: 12px;
     font-weight: bold;
+    font-family: 'Roboto';
 }
 
 .card {

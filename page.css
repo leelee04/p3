@@ -89,6 +89,7 @@ button {
     width: 41px;
     display: flex;
     justify-content: center;
+    font-family: 'Roboto';
 
 }
 
@@ -97,6 +98,9 @@ button {
     margin-top: 12px;
     font-family: 'Roboto';
 
+}
+.menutitle-description{
+    font-family: 'Roboto';
 }
 
 .price_menu {
@@ -117,7 +121,7 @@ button {
     width: 300px;
     position: relative;
     animation: border_white 3s;
-    overflow: hidden
+    overflow: hidden;
 }
 
 @keyframes border_white {
@@ -201,8 +205,6 @@ button {
     transform: scale(1);
     width: 100%;
 }
-}
-
 .button_btn:hover {
     transform: scale(1.03);
 }
