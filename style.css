@@ -194,7 +194,7 @@ main.background_index {
     margin-top: 20px;
     font-size: 15px;
     border-radius: 30px;
-    padding: 9px;
+    padding: 8px;
     width: 48%;
     height: 50px;
     text-align: center;
@@ -605,7 +605,8 @@ a {
 
     .btn-explorer {
         width: 30%;
-        margin-left: 22px;
+    margin-left: 22px;
+    padding-top: 15px;
     }
 
     .select_resto,
