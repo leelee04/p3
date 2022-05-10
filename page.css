@@ -56,7 +56,7 @@ button {
 }
 
 
-/*background*/
+/*MENU ENTRY*/
 .background_index {
     width: 100%;
     border-top-left-radius: 30px;
@@ -214,7 +214,7 @@ button {
     transform: scale(1.03);
 }
 
-/*footer*/
+/*FOOTER*/
 .footer_background {
     background: #353535;
     padding-top: 10px;
@@ -251,20 +251,13 @@ a {
     }
 }
 
-/*desktop*/
+/*DESKTOP*/
 @media (min-width: 993px) {
-    /*
-    .three-blocs {
-        display: flex;
-        flex-direction: row;
-        align-content: flex-start;
-    }
-    */
-
+    /*MENU ENTRY*/
     .dish {
         width: 81%;
     }
-
+/*BORDER MENU*/
     .border_white {
         display: flex;
         justify-content: space-between;
@@ -298,11 +291,6 @@ a {
         padding-left: 16px;
     }    
 
-    .bloc_plat {
-        -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.055, 0.675, 0.190) 1s forwards;
-        animation: text-focus-in 1s cubic-bezier(0.550, 0.055, 0.675, 0.190) 1s forwards;
-    }
-
     .bloc-menu-center {
         flex-direction: column;
     }
@@ -313,10 +301,6 @@ a {
         width: 97%;
         margin-top: 38px;
     }
-    .card_entree{
-        width: 29%;
-    }
-
     .menu-center {
         display: flex;
         justify-content: space-around;

@@ -113,6 +113,7 @@ th {
         height: 0;
     }    
 }
+/*FIN LOADER*/
 
 /* DEBUT PARTIE MOBILE*/
 
@@ -215,36 +216,9 @@ main.background_index {
     justify-content: space-around;
 }
 
-/*background*/
-.background_index {
-    width: 100%;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    background: whitesmoke;
-    padding: 32px;
-    position: relative;
-    margin-top: -31px;
-}
+/*FIN INTRO*/
 
-
-
-/* Selection resto */
-.bloc_card-resto {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-}
-
-.container-bloc {
-    font-family: 'Roboto';
-    padding-bottom: 2px;
-    background: #fafafa;
-    display: flex;
-    align-content: stretch;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+/*Prestation resto*/
 
 .title_container {
     font-size: 25px;
@@ -348,7 +322,13 @@ main.background_index {
     margin-left: 15px;
 }
 
-/*cards restaurant*/
+/*bloc-card resto*/
+.bloc_card-resto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
 .title_bloc {
     font-family: 'Roboto';
     font-weight: bold;
@@ -518,7 +498,7 @@ main.background_index {
     margin-left: 10px;
 }
 
-/*footer*/
+/*FOOTER*/
 .footer_background {
     background: black;
     padding-bottom: 15px;
@@ -538,21 +518,13 @@ a {
     color: white;
     margin-left: 10px;
     font-family: 'Roboto';
-
-
 }
 
 
 /* FIN PARTIE MOBILE*
+
 /*DEBUT PARTIE TABLETTE*/
 @media (min-width: 768px) and (max-width: 992px) {
-    .container-bloc {
-        font-family: 'Roboto';
-        padding-bottom: 2px;
-        background: #fafafa;
-        flex-flow: column;
-    }
-
     .btn_bouton {
         display: flex;
         width: 59%;
@@ -584,9 +556,6 @@ a {
 
 /*DEBUT PARTIE DESKTOP*/
 @media (min-width: 993px) {
-    .container-bloc {
-        flex-direction: column;
-    }
 
     .container-intro {
         display: flex;
