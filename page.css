@@ -70,6 +70,9 @@ button {
     display: flex;
     position: relative;
 }
+.menu-center{
+    margin-top: 13px;
+}
 
 .card1 {
     width: 100%;
@@ -306,6 +309,9 @@ a {
         justify-content: space-around;
     }
     button {
-        width: 22%;
+        width: 18%;
+    }
+    .card_entree{
+        width: 30%;
     }
 }
