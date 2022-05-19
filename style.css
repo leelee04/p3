@@ -192,19 +192,18 @@ main.background_index {
 .btn-explorer {
     margin-bottom: 30px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 15px;
     border-radius: 30px;
-    padding: 8px;
     width: 48%;
     height: 50px;
     text-align: center;
-    padding-bottom: 10px;
     font-family: 'Roboto';
     background-image: linear-gradient(0deg, rgba(147, 86, 220, .9), rgba(255, 121, 218, .9));
     color: white;
     box-shadow: 1px 8px 2px 1px #e8e7e7;
     transform: scale(1);
+    line-height: 46px;
 }
 
 .btn-explorer:hover {
@@ -534,7 +533,7 @@ a {
 
     .btn-explorer {
         width: 58%;
-        padding-top: 14px;
+        line-height: 46px;
     }
 
     .bloc_lign {
@@ -574,8 +573,7 @@ a {
 
     .btn-explorer {
         width: 30%;
-    margin-left: 22px;
-    padding-top: 15px;
+        line-height: 47px;
     }
 
     .select_resto,
