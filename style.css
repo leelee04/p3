@@ -204,6 +204,7 @@ main.background_index {
     box-shadow: 1px 8px 2px 1px #e8e7e7;
     transform: scale(1);
     line-height: 46px;
+    margin-left: 16px;
 }
 
 .btn-explorer:hover {

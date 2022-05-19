@@ -253,6 +253,14 @@ a {
         width: 100%;
         justify-content: space-between;
     }
+    .button_btn{
+        width: 62%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-content: stretch;
+        justify-content: flex-start;
+    }
 }
 
 /*DESKTOP*/
@@ -318,4 +326,5 @@ a {
     .card-bloc_plat{
         width: 30%;
     }
+
 }
