@@ -145,6 +145,7 @@ button {
 
 .border_white:hover .dishes__card__check {
     right: 64px;
+    transition: 0.5s;
 }
 
 .border_white:hover .price_menu {
