@@ -112,6 +112,7 @@ button {
 .price_menu {
     display: flex;
     flex-direction: row-reverse;
+    transition: 1s;
 }
 
 .border_white {
@@ -150,7 +151,8 @@ button {
 
 .border_white:hover .price_menu {
     margin-right: 64px;
-
+    transition: 0.5s;
+    
 }
 
 .border_white:hover {
@@ -188,6 +190,7 @@ button {
     height: 100px;
     right: 0;
     opacity: 1;
+    transition: 1s;
 }
 
 .icone-check {
